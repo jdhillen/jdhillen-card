@@ -2,10 +2,27 @@
   "name": "jdhillen",
   "version": "1.0.0",
   "description": "My personal calling card",
-  "main": "card.js",
+  "main": "./bin/card.js",
+  "type": "module",
+  "bin": {
+    "jdhillen": "./bin/card.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "J.D. Hillen",
-  "license": "MIT"
+  "keywords": [
+    "J.D.",
+    "Hillen"
+  ],
+  "author": "J.D. Hillen <jhillen01@gmail.com> (https://jdhillen.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdhillen/jdhillen-card.git"
+  },
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "gradient-string": "^2.0.2"
+  }
 }
